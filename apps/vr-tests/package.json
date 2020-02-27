@@ -29,7 +29,7 @@
     "babel-loader": "^7.1.5",
     "css-loader": "^0.28.7",
     "csstype": "2.6.3",
-    "file-loader": "^0.11.1",
+    "file-loader": "^5.1.0",
     "postcss-loader": "^2.0.9",
     "raw-loader": "^0.5.1",
     "screener-runner": "^0.10.41",
