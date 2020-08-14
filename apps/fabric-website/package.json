@@ -58,6 +58,6 @@
     "json-loader": "^0.5.7",
     "office-ui-fabric-react": "^7.37.1",
     "tslib": "^1.7.1",
-    "whatwg-fetch": "2.0.4"
+    "whatwg-fetch": "3.4.0"
   }
 }
