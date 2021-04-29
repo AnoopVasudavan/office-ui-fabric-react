@@ -1,0 +1,37 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: whatwg-fetch
+    versions:
+    - 3.5.0
+    - 3.6.1
+  - dependency-name: beachball
+    versions:
+    - 1.48.1
+  - dependency-name: lodash-es
+    versions:
+    - 4.17.20
+  - dependency-name: sass-loader
+    versions:
+    - 10.1.0
+  - dependency-name: "@types/puppeteer"
+    versions:
+    - 5.4.2
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: "@types/d3-scale"
+    versions:
+    - 2.2.0
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
